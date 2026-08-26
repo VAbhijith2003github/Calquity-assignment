@@ -1,5 +1,29 @@
 import React, { useRef, useEffect } from 'react';
 
+/* ── Typing dots animation (CSS injected once) ─────────────────────────── */
+const TYPING_STYLE = `
+@keyframes bounce-dot {
+  0%, 80%, 100% { transform: translateY(0); opacity: 0.4; }
+  40%            { transform: translateY(-5px); opacity: 1; }
+}
+.typing-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: #6b7280;
+  display: inline-block;
+  animation: bounce-dot 1.2s infinite ease-in-out;
+}
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
+`;
+
+if (!document.getElementById('typing-anim-style')) {
+  const style = document.createElement('style');
+  style.id = 'typing-anim-style';
+  style.textContent = TYPING_STYLE;
+  document.head.appendChild(style);
+}
+
+/* ── Component ──────────────────────────────────────────────────────────── */
 function ChatPanel({ 
   messages, 
   inputValue, 
@@ -42,11 +66,22 @@ function ChatPanel({
             <div 
               className={`p-3 rounded-xl text-xs max-w-[85%] leading-relaxed shadow-sm ${m.sender === 'user' ? 'bg-gray-900 text-white' : 'bg-white border border-gray-100 text-gray-800'}`}
             >
-              {parseMessageText(m.text)}
-              {m.tool_used && (
-                <div className="mt-2 flex items-center gap-1.5 text-[8px] font-medium tracking-wider text-gray-400 uppercase">
-                  <i className="fa-solid fa-gears text-gray-400"></i> Tool: {m.tool_used.replace(/_/g, ' ')}
-                </div>
+              {/* Show animated dots if streaming with no text yet */}
+              {m.isStreaming && !m.text ? (
+                <span className="flex items-center gap-1.5 py-0.5 px-1">
+                  <span className="typing-dot" />
+                  <span className="typing-dot" />
+                  <span className="typing-dot" />
+                </span>
+              ) : (
+                <>
+                  {parseMessageText(m.text)}
+                  {m.tool_used && (
+                    <div className="mt-2 flex items-center gap-1.5 text-[8px] font-medium tracking-wider text-gray-400 uppercase">
+                      <i className="fa-solid fa-gears text-gray-400"></i> Tool: {m.tool_used.replace(/_/g, ' ')}
+                    </div>
+                  )}
+                </>
               )}
             </div>
           </div>
@@ -109,7 +144,7 @@ function ChatPanel({
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           placeholder="Ask a question or request an action..." 
-          className="flex-1 bg-gray-50 border border-gray-200/80 text-gray-850 text-xs rounded-lg px-3.5 py-2.5 focus:outline-none focus:border-gray-400 focus:bg-white transition duration-150"
+          className="flex-1 bg-gray-50 border border-gray-200/80 text-gray-900 placeholder-gray-500 text-xs rounded-lg px-3.5 py-2.5 focus:outline-none focus:border-gray-400 focus:bg-white transition duration-150"
           autoComplete="off"
         />
         <button type="submit" className="w-9 h-9 rounded-lg bg-gray-900 hover:bg-gray-800 flex items-center justify-center text-white transition duration-150 shadow-sm">
