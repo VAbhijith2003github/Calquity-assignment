@@ -534,11 +534,14 @@ def generate_response(state: AgentState, config: Optional[RunnableConfig] = None
         response_text = _call_gemini_text(prompt, stream_callback=stream_callback)
     except Exception as e:
         logger.error(f"[generate_response] Failed: {e}")
-        # Fallback: construct response from decision directly
-        if decision:
-            response_text = f"{decision.get('reason', 'Unable to process request.')}\n\n**Execution trace:**\n{trace_text}"
+        err_msg = str(e).lower()
+        if "quota" in err_msg or "exhausted" in err_msg or "429" in err_msg or "503" in err_msg or "unavailable" in err_msg:
+            response_text = "⚠️ **API token limit reached.** Please wait a few seconds and try again."
         else:
-            response_text = "I was unable to process your request. Please contact ParcelPilot support."
+            if decision:
+                response_text = f"{decision.get('reason', 'Unable to process request.')}\n\n**Execution trace:**\n{trace_text}"
+            else:
+                response_text = "I was unable to process your request. Please contact ParcelPilot support."
         if stream_callback:
             stream_callback(response_text)
 

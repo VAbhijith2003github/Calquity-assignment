@@ -67,7 +67,24 @@ class ParcelPilotAgent:
         config = {}
         if stream_callback:
             config = {"configurable": {"stream_callback": stream_callback}}
-        final_state = compiled_app.invoke(initial_state, config=config)
+        
+        try:
+            final_state = compiled_app.invoke(initial_state, config=config)
+        except Exception as e:
+            logger.error(f"[ParcelPilotAgent] Invocation failed: {e}")
+            err_msg = str(e).lower()
+            if "quota" in err_msg or "exhausted" in err_msg or "429" in err_msg or "503" in err_msg or "unavailable" in err_msg:
+                fallback_msg = "⚠️ **API token limit reached.** Please wait a few seconds and try again."
+            else:
+                fallback_msg = "I was unable to process your request. Please contact ParcelPilot support."
+            if stream_callback:
+                stream_callback(fallback_msg)
+            return {
+                "text": fallback_msg,
+                "pending_action": None,
+                "tool_used": "error",
+                "execution_trace": ["⚠️ Pipeline execution crashed due to external API limit/error."]
+            }
 
         return {
             "text": final_state.get("final_response", "I was unable to process your request."),

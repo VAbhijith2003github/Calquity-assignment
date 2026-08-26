@@ -259,7 +259,7 @@ function App() {
   };
 
   return (
-    <div className="h-screen flex flex-col bg-[#0b0f19] text-gray-200 overflow-hidden font-sans">
+    <div className="h-screen flex flex-col bg-gray-100 text-gray-800 overflow-hidden font-sans">
       
       {/* Dynamic Header */}
       <Header activeSession={activeSession} backendStatus={backendStatus} />
@@ -268,7 +268,7 @@ function App() {
       <main className="flex-1 flex overflow-hidden">
         
         {/* Left Side: Scope boundaries + Chatbot */}
-        <section className="w-5/12 border-r border-gray-800 flex flex-col bg-[#070b13]/40 overflow-hidden">
+        <section className="w-5/12 border-r border-gray-100 flex flex-col bg-white overflow-hidden">
           
           {/* Security Context Boundaries Switcher */}
           <ContextSwitcher 
@@ -290,7 +290,7 @@ function App() {
         </section>
 
         {/* Right Side: Database Explorer + Security Logs */}
-        <section className="w-7/12 flex flex-col overflow-hidden bg-[#070b13]/10">
+        <section className="w-7/12 flex flex-col overflow-hidden bg-gray-50/50">
           
           {/* Tabbed Database View */}
           <DatabaseViewer 
