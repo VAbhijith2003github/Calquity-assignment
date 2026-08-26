@@ -8,7 +8,7 @@ import ChatPanel from './components/ChatPanel';
 import DatabaseViewer from './components/DatabaseViewer';
 import AuditLogs from './components/AuditLogs';
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = process.env.REACT_APP_API_BASE || "http://127.0.0.1:8000";
 
 function App() {
   const [messages, setMessages] = useState([
