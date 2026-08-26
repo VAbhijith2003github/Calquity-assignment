@@ -109,3 +109,17 @@ If we were to extend this product for ParcelPilot, we would focus on **Proactive
   .\backend\venv\Scripts\pytest.exe backend/tests/test_api.py -v
   ```
 * **Real-Time Streaming**: Start uvicorn and the React frontend, scope context to *Northstar Logistics*, and execute a query. You will observe process logs and tokens streaming dynamically onto the chat dashboard.
+
+---
+
+## 4. AI Tool Usage
+
+The following AI coding tools were used during this project:
+
+| Tool | How It Was Used |
+|---|---|
+| **Antigravity IDE** (Google DeepMind) | Primary development assistant — used for code generation, debugging, iterative refactoring, and architectural decisions across the FastAPI backend, LangGraph agent pipeline, SQLite data layer, Qdrant vector search integration, and React frontend. |
+| **Claude Sonnet** (Anthropic) | Used for reasoning through complex architectural decisions, reviewing code structure, and refining product thinking during development. |
+| **Google Gemini 2.5 Flash** | LLM powering all agent nodes at runtime — intent parsing, multi-step planning, source resolution, decision making, and final response generation. |
+
+AI tools were used extensively to accelerate development. All architectural decisions, product choices, and code structure were reviewed and directed by V Abhijith.
