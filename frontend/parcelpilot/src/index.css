@@ -1,0 +1,4 @@
+/* Clean index.css to prevent default layout interference */
+body {
+  margin: 0;
+}
