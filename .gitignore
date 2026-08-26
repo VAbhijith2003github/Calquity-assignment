@@ -1,0 +1,22 @@
+# Python virtual environment and caches
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node packages and builds
+**/node_modules/
+**/dist/
+**/build/
+.eslintcache
+
+# Secret credentials (prevent API key leaks)
+.env
+.env*.local
+
+# IDE and OS metadata
+.gemini/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

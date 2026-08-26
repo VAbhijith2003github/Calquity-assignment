@@ -1,0 +1,40 @@
+[
+  {
+    "chunk_id": "support_policy_v2_parcelpilot_support_policy_v2_001",
+    "content": "Status:\n\nDEPRECATED - DO NOT USE FOR CURRENT REQUESTS\n\nEffective:\n\n1 January 2025\n\nSuperseded by:\n\nSupport Policy v3 effective 1 May 2026",
+    "content_hash": "9cce0f78070cf29d82316a4cbbf5caca1a93d1275db7eecb11e7333746c006e6",
+    "document_id": "support_policy_v2",
+    "document_name": "ParcelPilot Support Policy v2",
+    "document_type": "support_policy",
+    "status": "DEPRECATED",
+    "effective_date": "2025-01-01",
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 0,
+    "retrieval_enabled": false,
+    "section": "ParcelPilot Support Policy v2",
+    "header_path": [
+      "ParcelPilot Support Policy v2",
+      "ParcelPilot Support Policy v2"
+    ]
+  },
+  {
+    "chunk_id": "support_policy_v2_severity_and_response_targets_001",
+    "content": "P1 covers complete production outages and severe security incidents. P2 covers major feature degradation. P3 covers minor issues and questions.\n\n| Plan       | P1               | P2              | P3              |\n|------------|------------------|-----------------|-----------------|\n| Enterprise | 1 hour           | 4 hours         | 2 business days |\n| Growth     | 4 business hours | 1 business day  | 3 business days |\n| Standard   | 8 business hours | 2 business days | 3 business days |\n\nNote: This file is intentionally retained for historical reference and must not be used as current policy.",
+    "content_hash": "595e8f6bedc776974f565c947d5760b1aba792f60efdea5e1f8f4ebb92006987",
+    "document_id": "support_policy_v2",
+    "document_name": "ParcelPilot Support Policy v2",
+    "document_type": "support_policy",
+    "status": "DEPRECATED",
+    "effective_date": "2025-01-01",
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 0,
+    "retrieval_enabled": false,
+    "section": "Severity and response targets",
+    "header_path": [
+      "ParcelPilot Support Policy v2",
+      "Severity and response targets"
+    ]
+  }
+]

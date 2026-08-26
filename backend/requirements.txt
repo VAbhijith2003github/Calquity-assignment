@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+openpyxl
+langgraph
+google-genai
+python-dotenv
+qdrant-client
+sentence-transformers

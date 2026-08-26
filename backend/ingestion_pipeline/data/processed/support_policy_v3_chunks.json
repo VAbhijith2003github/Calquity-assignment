@@ -1,0 +1,97 @@
+[
+  {
+    "chunk_id": "support_policy_v3_parcelpilot_support_policy_v3_001",
+    "content": "Status:\n\nCURRENT\n\nEffective:\n\n1 May 2026\n\nSupersedes:\n\nSupport Policy v2",
+    "content_hash": "53891219a8ea6a7d97faf1a77c38cff5f0072b2788b34ef286a8a5e9d148e1c5",
+    "document_id": "support_policy_v3",
+    "document_name": "ParcelPilot Support Policy v3",
+    "document_type": "support_policy",
+    "status": "CURRENT",
+    "effective_date": "2026-05-01",
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 80,
+    "retrieval_enabled": true,
+    "section": "ParcelPilot Support Policy v3",
+    "header_path": [
+      "ParcelPilot Support Policy v3",
+      "ParcelPilot Support Policy v3"
+    ]
+  },
+  {
+    "chunk_id": "support_policy_v3_1_scope_and_source_precedence_001",
+    "content": "This policy defines default support severity and response targets. A signed customer agreement may override these defaults. When sources conflict, use the signed customer agreement first, then the current support policy, then current product documentation. Historical tickets and internal notes are context only and may contain incorrect past guidance.",
+    "content_hash": "1845aaef6f64d7ba6d3137af6824c343c2e1923a2bc296c782d85d81700096dc",
+    "document_id": "support_policy_v3",
+    "document_name": "ParcelPilot Support Policy v3",
+    "document_type": "support_policy",
+    "status": "CURRENT",
+    "effective_date": "2026-05-01",
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 80,
+    "retrieval_enabled": true,
+    "section": "1. Scope and source precedence",
+    "header_path": [
+      "ParcelPilot Support Policy v3",
+      "1. Scope and source precedence"
+    ]
+  },
+  {
+    "chunk_id": "support_policy_v3_2_severity_definitions_001",
+    "content": "- P1 - Critical: Complete production outage preventing all shipment creation for a customer, confirmed security incident or suspected credential exposure, or another event causing immediate material business risk with no workaround.\n- P2 - High: Major feature unavailable or materially degraded for a customer, but core operations remain possible or a workaround exists.\n- P3 - Normal: Minor defect, how-to question, configuration request, or issue with limited operational impact.",
+    "content_hash": "0063b3d9c5c73da4a93ab04753162cdf29fad8a884b3220b95641714a641ce8f",
+    "document_id": "support_policy_v3",
+    "document_name": "ParcelPilot Support Policy v3",
+    "document_type": "support_policy",
+    "status": "CURRENT",
+    "effective_date": "2026-05-01",
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 80,
+    "retrieval_enabled": true,
+    "section": "2. Severity definitions",
+    "header_path": [
+      "ParcelPilot Support Policy v3",
+      "2. Severity definitions"
+    ]
+  },
+  {
+    "chunk_id": "support_policy_v3_3_default_firstresponse_targets_001",
+    "content": "| Plan       | P1               | P2               | P3              |\n|------------|------------------|------------------|-----------------|\n| Enterprise | 30 minutes, 24x7 | 2 hours          | 1 business day  |\n| Growth     | 2 business hours | 4 business hours | 2 business days |\n| Standard   | 4 business hours | 1 business day   | 2 business days |",
+    "content_hash": "a3cced39d946fac42847b1ad7b31aadd086a570f78f145ae4caa80df7dfc8e34",
+    "document_id": "support_policy_v3",
+    "document_name": "ParcelPilot Support Policy v3",
+    "document_type": "support_policy",
+    "status": "CURRENT",
+    "effective_date": "2026-05-01",
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 80,
+    "retrieval_enabled": true,
+    "section": "3. Default first-response targets",
+    "header_path": [
+      "ParcelPilot Support Policy v3",
+      "3. Default first-response targets"
+    ]
+  },
+  {
+    "chunk_id": "support_policy_v3_4_escalation_001",
+    "content": "P1 incidents should be escalated immediately. If a response target is already breached, the agent should clearly state the breach and recommend escalation rather than hiding uncertainty.",
+    "content_hash": "65d21d6b284a3f7d8370400d41778f1f9150d3dd7aed057b25ace99a08fd8a68",
+    "document_id": "support_policy_v3",
+    "document_name": "ParcelPilot Support Policy v3",
+    "document_type": "support_policy",
+    "status": "CURRENT",
+    "effective_date": "2026-05-01",
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 80,
+    "retrieval_enabled": true,
+    "section": "4. Escalation",
+    "header_path": [
+      "ParcelPilot Support Policy v3",
+      "4. Escalation"
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "chunk_id": "product_operations_guide_parcelpilot_product_operations_guide_001",
+    "content": "Status:\n\nCURRENT\n\nUpdated:\n\n14 August 2026",
+    "content_hash": "4c4e0878550781bd8d6b0f78e161122b92ba9967eec5761e6abd142ab1384fc0",
+    "document_id": "product_operations_guide",
+    "document_name": "ParcelPilot Product Operations Guide",
+    "document_type": "product_documentation",
+    "status": "CURRENT",
+    "effective_date": null,
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 70,
+    "retrieval_enabled": true,
+    "section": "ParcelPilot Product Operations Guide",
+    "header_path": [
+      "ParcelPilot Product Operations Guide",
+      "ParcelPilot Product Operations Guide"
+    ]
+  },
+  {
+    "chunk_id": "product_operations_guide_1_plan_capabilities_001",
+    "content": "- Bulk Upload: Available on Growth and Enterprise. Supported file size is up to 5,000 rows per CSV.\n- Standard: Bulk Upload is not included.\n- Shipment status: BOOKED means the shipment is created but ParcelPilot has not yet received a pickup confirmation. PICKED\\_UP means carrier pickup has been confirmed.",
+    "content_hash": "1a8af78b7adf18bd2570898042e2aa9e5a9de568e3f0fc52143b655dad2e2d39",
+    "document_id": "product_operations_guide",
+    "document_name": "ParcelPilot Product Operations Guide",
+    "document_type": "product_documentation",
+    "status": "CURRENT",
+    "effective_date": null,
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 70,
+    "retrieval_enabled": true,
+    "section": "1. Plan capabilities",
+    "header_path": [
+      "ParcelPilot Product Operations Guide",
+      "1. Plan capabilities"
+    ]
+  },
+  {
+    "chunk_id": "product_operations_guide_ki208_bulk_upload_failures_on_large_csvs_001",
+    "content": "Opened:\n\n10 August 2026\n\nStatus:\n\nInvestigating\n\nSome Growth and Enterprise customers experience intermittent failures on CSV uploads above approximately 3,000 rows, even though the supported product limit remains 5,000 rows. Workaround: split the upload into files below 3,000 rows. Individual shipment creation is unaffected.",
+    "content_hash": "6a83a147767b30b401554b239e31a8bd24852c7a7f819d3a1aa0d0f52679b028",
+    "document_id": "product_operations_guide",
+    "document_name": "ParcelPilot Product Operations Guide",
+    "document_type": "product_documentation",
+    "status": "CURRENT",
+    "effective_date": null,
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 70,
+    "retrieval_enabled": true,
+    "section": "KI-208 - Bulk Upload failures on large CSVs",
+    "header_path": [
+      "ParcelPilot Product Operations Guide",
+      "KI-208 - Bulk Upload failures on large CSVs"
+    ]
+  },
+  {
+    "chunk_id": "product_operations_guide_ki211_swiftship_pickup_webhook_delay_001",
+    "content": "Opened:\n\n12 August 2026\n\nStatus:\n\nMonitoring\n\nSwiftShip pickup confirmation webhooks can arrive up to 20 minutes late. A parcel may physically be collected while ParcelPilot still shows BOOKED. Before telling a customer that a pickup did not occur, verify the carrier status or wait through the known delay window.",
+    "content_hash": "a4af8afab8d8ca429014543491d7cb0759febaee1178e20d58f9e278c3734e90",
+    "document_id": "product_operations_guide",
+    "document_name": "ParcelPilot Product Operations Guide",
+    "document_type": "product_documentation",
+    "status": "CURRENT",
+    "effective_date": null,
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 70,
+    "retrieval_enabled": true,
+    "section": "KI-211 - SwiftShip pickup webhook delay",
+    "header_path": [
+      "ParcelPilot Product Operations Guide",
+      "KI-211 - SwiftShip pickup webhook delay"
+    ]
+  },
+  {
+    "chunk_id": "product_operations_guide_3_resolved_issue_001",
+    "content": "KI-176 - Address validation: Resolved 18 July 2026. Do not use this resolved issue to explain new incidents unless evidence specifically matches it.",
+    "content_hash": "72eda91060ff1f412a46ad576bc90cf2ce4ec5d45b8069a3beaef5b73ef87688",
+    "document_id": "product_operations_guide",
+    "document_name": "ParcelPilot Product Operations Guide",
+    "document_type": "product_documentation",
+    "status": "CURRENT",
+    "effective_date": null,
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 70,
+    "retrieval_enabled": true,
+    "section": "3. Resolved issue",
+    "header_path": [
+      "ParcelPilot Product Operations Guide",
+      "3. Resolved issue"
+    ]
+  }
+]

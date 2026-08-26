@@ -1,0 +1,78 @@
+[
+  {
+    "chunk_id": "cancellation_service_credit_sop_v4_parcelpilot_cancellation_amp_service_credit_sop_v4_001",
+    "content": "Status:\n\nCURRENT\n\nEffective:\n\n15 June 2026",
+    "content_hash": "9c84994b41b012640907158bf58ebaeb375eca2af56e2cfdc4b68a06959751cc",
+    "document_id": "cancellation_service_credit_sop_v4",
+    "document_name": "ParcelPilot Cancellation and Service Credit SOP v4",
+    "document_type": "sop",
+    "status": "CURRENT",
+    "effective_date": "2026-06-15",
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 80,
+    "retrieval_enabled": true,
+    "section": "ParcelPilot Cancellation &amp; Service Credit SOP v4",
+    "header_path": [
+      "ParcelPilot Cancellation and Service Credit SOP v4",
+      "ParcelPilot Cancellation &amp; Service Credit SOP v4"
+    ]
+  },
+  {
+    "chunk_id": "cancellation_service_credit_sop_v4_1_order_cancellation_001",
+    "content": "- DRAFT: May be cancelled with no fee.\n- BOOKED, not yet PICKED\\_UP: May be cancelled. No fee within 30 minutes of booking. After 30 minutes, charge INR 250 unless a customer agreement explicitly waives the cancellation fee.\n- PICKED\\_UP: Do not cancel. Use the return-to-origin workflow if the customer wants the parcel returned.\n- DELIVERED: Cannot be cancelled.",
+    "content_hash": "4d795076438827960eaaf3e9b680a2254915b1ea0929619ef34add3b4a8d1cc6",
+    "document_id": "cancellation_service_credit_sop_v4",
+    "document_name": "ParcelPilot Cancellation and Service Credit SOP v4",
+    "document_type": "sop",
+    "status": "CURRENT",
+    "effective_date": "2026-06-15",
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 80,
+    "retrieval_enabled": true,
+    "section": "1. Order cancellation",
+    "header_path": [
+      "ParcelPilot Cancellation and Service Credit SOP v4",
+      "1. Order cancellation"
+    ]
+  },
+  {
+    "chunk_id": "cancellation_service_credit_sop_v4_2_failedpickup_service_credits_001",
+    "content": "Under the default policy, a customer is eligible for a service credit when the pickup is more than 2 hours past the end of the scheduled pickup window, the carrier is at fault, and there is no customer-caused issue. The default credit is the lower of INR 500 or 10% of the shipment fee.\n\nA signed customer agreement may replace the default delay threshold, credit amount, or cap.",
+    "content_hash": "39e654489bd158f42e054da2d467c4f686d5d3bd4add66218f458295d7cba505",
+    "document_id": "cancellation_service_credit_sop_v4",
+    "document_name": "ParcelPilot Cancellation and Service Credit SOP v4",
+    "document_type": "sop",
+    "status": "CURRENT",
+    "effective_date": "2026-06-15",
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 80,
+    "retrieval_enabled": true,
+    "section": "2. Failed-pickup service credits",
+    "header_path": [
+      "ParcelPilot Cancellation and Service Credit SOP v4",
+      "2. Failed-pickup service credits"
+    ]
+  },
+  {
+    "chunk_id": "cancellation_service_credit_sop_v4_3_approval_and_uncertainty_001",
+    "content": "- Any individual credit above INR 1,000 requires manager approval.\n- Do not promise a credit when carrier fault, pickup timing, or customer fault is unknown.\n- When data conflicts, identify the conflict and request verification before a state-changing action.",
+    "content_hash": "57056ce74fb5694c9ad7a3b6960b4a154a33413cb895e65dc2210573c1549930",
+    "document_id": "cancellation_service_credit_sop_v4",
+    "document_name": "ParcelPilot Cancellation and Service Credit SOP v4",
+    "document_type": "sop",
+    "status": "CURRENT",
+    "effective_date": "2026-06-15",
+    "account_id": null,
+    "customer_name": null,
+    "authority_level": 80,
+    "retrieval_enabled": true,
+    "section": "3. Approval and uncertainty",
+    "header_path": [
+      "ParcelPilot Cancellation and Service Credit SOP v4",
+      "3. Approval and uncertainty"
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "chunk_id": "northstar_agreement_parcelpilot_northstar_logistics_enterprise_agreement_001",
+    "content": "Account:\n\nACCT-001\n\nCustomer:\n\nNorthstar Logistics\n\nTerm:\n\n1 January 2026 to 31 December 2026\n\nStatus:\n\nACTIVE",
+    "content_hash": "61862b3fdf10d84cb49d0fa4ac5f698e06c2287414e141474d213ae187ff41ac",
+    "document_id": "northstar_agreement",
+    "document_name": "Northstar Logistics Enterprise Agreement",
+    "document_type": "customer_agreement",
+    "status": "ACTIVE",
+    "effective_date": null,
+    "account_id": "ACCT-001",
+    "customer_name": "Northstar Logistics",
+    "authority_level": 100,
+    "retrieval_enabled": true,
+    "section": "ParcelPilot - Northstar Logistics Enterprise Agreement",
+    "header_path": [
+      "Northstar Logistics Enterprise Agreement",
+      "ParcelPilot - Northstar Logistics Enterprise Agreement"
+    ]
+  },
+  {
+    "chunk_id": "northstar_agreement_1_support_terms_001",
+    "content": "For Northstar Logistics, the following first-response targets replace ParcelPilot's standard support-policy targets:\n\n- P1: 15 minutes, 24x7\n\n- P2: 1 hour\n\n- P3: 8 business hours",
+    "content_hash": "6dc2b3f04a226fb1b6c751390a0c40d5cff51378bc1f4ae58f33cc4f68e9750b",
+    "document_id": "northstar_agreement",
+    "document_name": "Northstar Logistics Enterprise Agreement",
+    "document_type": "customer_agreement",
+    "status": "ACTIVE",
+    "effective_date": null,
+    "account_id": "ACCT-001",
+    "customer_name": "Northstar Logistics",
+    "authority_level": 100,
+    "retrieval_enabled": true,
+    "section": "1. Support terms",
+    "header_path": [
+      "Northstar Logistics Enterprise Agreement",
+      "1. Support terms"
+    ]
+  },
+  {
+    "chunk_id": "northstar_agreement_2_shipment_cancellation_001",
+    "content": "Northstar may cancel any BOOKED shipment before pickup with no cancellation fee, regardless of how long ago the shipment was booked. Once a shipment is PICKED\\_UP, the standard return-to-origin process applies.",
+    "content_hash": "b2e6598a96c853cbd3ef6f3d6b31c092aeb537a0c4d358824929901de7bf212d",
+    "document_id": "northstar_agreement",
+    "document_name": "Northstar Logistics Enterprise Agreement",
+    "document_type": "customer_agreement",
+    "status": "ACTIVE",
+    "effective_date": null,
+    "account_id": "ACCT-001",
+    "customer_name": "Northstar Logistics",
+    "authority_level": 100,
+    "retrieval_enabled": true,
+    "section": "2. Shipment cancellation",
+    "header_path": [
+      "Northstar Logistics Enterprise Agreement",
+      "2. Shipment cancellation"
+    ]
+  },
+  {
+    "chunk_id": "northstar_agreement_3_service_credits_001",
+    "content": "Monthly aggregate service credits are capped at INR 5,000. Unless this agreement states otherwise, the current ParcelPilot service-credit SOP applies.",
+    "content_hash": "835c7ae4bfe0defcdfdaa0cd54731c3e65ebce18bbefde6fea8b43cb83147a03",
+    "document_id": "northstar_agreement",
+    "document_name": "Northstar Logistics Enterprise Agreement",
+    "document_type": "customer_agreement",
+    "status": "ACTIVE",
+    "effective_date": null,
+    "account_id": "ACCT-001",
+    "customer_name": "Northstar Logistics",
+    "authority_level": 100,
+    "retrieval_enabled": true,
+    "section": "3. Service credits",
+    "header_path": [
+      "Northstar Logistics Enterprise Agreement",
+      "3. Service credits"
+    ]
+  },
+  {
+    "chunk_id": "northstar_agreement_4_account_contact_001",
+    "content": "Dedicated CSM: Priya Mehta.",
+    "content_hash": "4581966380731108875b7746e9efa8ed0e838f9e89bad3ba4dafb294e591513e",
+    "document_id": "northstar_agreement",
+    "document_name": "Northstar Logistics Enterprise Agreement",
+    "document_type": "customer_agreement",
+    "status": "ACTIVE",
+    "effective_date": null,
+    "account_id": "ACCT-001",
+    "customer_name": "Northstar Logistics",
+    "authority_level": 100,
+    "retrieval_enabled": true,
+    "section": "4. Account contact",
+    "header_path": [
+      "Northstar Logistics Enterprise Agreement",
+      "4. Account contact"
+    ]
+  }
+]

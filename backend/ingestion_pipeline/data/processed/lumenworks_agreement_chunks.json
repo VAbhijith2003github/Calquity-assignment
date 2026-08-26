@@ -1,0 +1,78 @@
+[
+  {
+    "chunk_id": "lumenworks_agreement_parcelpilot_lumenworks_service_agreement_001",
+    "content": "Account:\n\nACCT-002\n\nCustomer:\n\nLumenWorks\n\nPlan:\n\nGrowth\n\nTerm:\n\n1 March 2026 to 28 February 2027\n\nStatus:\n\nACTIVE",
+    "content_hash": "2bba70e3774595a369284c688d09ac90651ce5627abcacebf16c205b451cd942",
+    "document_id": "lumenworks_agreement",
+    "document_name": "LumenWorks Service Agreement",
+    "document_type": "customer_agreement",
+    "status": "ACTIVE",
+    "effective_date": null,
+    "account_id": "ACCT-002",
+    "customer_name": "LumenWorks",
+    "authority_level": 100,
+    "retrieval_enabled": true,
+    "section": "ParcelPilot - LumenWorks Service Agreement",
+    "header_path": [
+      "LumenWorks Service Agreement",
+      "ParcelPilot - LumenWorks Service Agreement"
+    ]
+  },
+  {
+    "chunk_id": "lumenworks_agreement_1_support_terms_001",
+    "content": "- P1: 2 business hours\n- P2: 4 business hours\n- P3: 2 business days\n- No weekend or after-hours support coverage.",
+    "content_hash": "cd9720919780390511fb5856492f850849714e8efb4d637b10e6aee2dc9fb200",
+    "document_id": "lumenworks_agreement",
+    "document_name": "LumenWorks Service Agreement",
+    "document_type": "customer_agreement",
+    "status": "ACTIVE",
+    "effective_date": null,
+    "account_id": "ACCT-002",
+    "customer_name": "LumenWorks",
+    "authority_level": 100,
+    "retrieval_enabled": true,
+    "section": "1. Support terms",
+    "header_path": [
+      "LumenWorks Service Agreement",
+      "1. Support terms"
+    ]
+  },
+  {
+    "chunk_id": "lumenworks_agreement_2_cancellation_terms_001",
+    "content": "No special cancellation-fee waiver applies. Use the current ParcelPilot Cancellation &amp; Service Credit SOP.",
+    "content_hash": "4875d7c2dcc50a2c71acaa817d8c1cbff37c18f5be022c434ca44b5f94bf27e9",
+    "document_id": "lumenworks_agreement",
+    "document_name": "LumenWorks Service Agreement",
+    "document_type": "customer_agreement",
+    "status": "ACTIVE",
+    "effective_date": null,
+    "account_id": "ACCT-002",
+    "customer_name": "LumenWorks",
+    "authority_level": 100,
+    "retrieval_enabled": true,
+    "section": "2. Cancellation terms",
+    "header_path": [
+      "LumenWorks Service Agreement",
+      "2. Cancellation terms"
+    ]
+  },
+  {
+    "chunk_id": "lumenworks_agreement_3_failedpickup_credits_001",
+    "content": "If a pickup is more than 4 hours past the end of the scheduled pickup window, the carrier is at fault, and the customer is not at fault, LumenWorks receives a fixed INR 300 service credit. This clause replaces the default failed-pickup credit amount and timing threshold in the SOP.",
+    "content_hash": "e2d8e22104c4a6e6a0944f91873fd0749b8d6a1f752e081292f55d80fb6cf48e",
+    "document_id": "lumenworks_agreement",
+    "document_name": "LumenWorks Service Agreement",
+    "document_type": "customer_agreement",
+    "status": "ACTIVE",
+    "effective_date": null,
+    "account_id": "ACCT-002",
+    "customer_name": "LumenWorks",
+    "authority_level": 100,
+    "retrieval_enabled": true,
+    "section": "3. Failed-pickup credits",
+    "header_path": [
+      "LumenWorks Service Agreement",
+      "3. Failed-pickup credits"
+    ]
+  }
+]
